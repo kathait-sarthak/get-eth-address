@@ -22,6 +22,7 @@ cd get-eth-address
 # Install all dependencies
 
 [npm install]
+
 2. Running the Tests
 Run the included unit test to verify the key derivation logic.
 
@@ -37,6 +38,7 @@ Tests: 1 passed, 1 total
 💡 Core Concepts and Logic Explained
 The getAddress.js file implements the core logic that every Ethereum wallet follows. The process is a one-way street, ensuring security.
 Private Key (The Secret): A 32-byte (256-bit) random number.
+
 Test Private Key: 0x..............................0
 Public Key Derivation: The private key is used in an Elliptic Curve Cryptography (ECC) operation (secp256k1) to derive the Public Key.(This step is one-way)
 
