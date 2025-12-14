@@ -1,8 +1,12 @@
-🔐 Ethereum Key Derivation Utility
+🔐# Ethereum Key Derivation Utility
+
+
 A simple, educational Node.js module for deriving an Ethereum Public Key and Address from a given Private Key. This project demonstrates the core cryptographic principles behind Ethereum wallet key generation using the industry-standard ethereumjs-util library.
 
-✨ Features
-     1.)Ethereum Key Derivation: Correctly calculates the Public Key and Address from a Private Key.
+✨# Features
+
+
+    1.)Ethereum Key Derivation: Correctly calculates the Public Key and Address from a Private Key.
     2.)Module System: Uses the stable CommonJS module system (require/module.exports).
     3.)Verification: Includes a passing Jest test suite to validate cryptographic outputs against known values.
     4.)Dependencies: Built with:
@@ -41,9 +45,14 @@ Tests:       1 passed, 1 total
 💡 Core Concepts and Logic Explained
 The getAddress.js file implements the core logic that every Ethereum wallet follows. The process is one-way, ensuring security:
 Private Key (The Secret): A 32-byte (256-bit) random number.
+
+
 Example Test Private Key:0x..............................0
+
 Public Key Derivation: The private key is used in an Elliptic Curve Cryptography (ECC) operation (secp256k1) to derive the Public Key.
 Address Derivation: The Public Key is hashed using the Keccak-256 algorithm. The final 20 bytes of the hash become the Ethereum Address.
+
+
 Example Expected Address:0x.......................E0
 
 
