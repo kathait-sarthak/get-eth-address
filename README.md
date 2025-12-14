@@ -48,7 +48,12 @@ Tests:       1 passed, 1 total
 
 
 
+
+
+
 💡# Core Concepts and Logic Explained
+
+
 The getAddress.js file implements the core logic that every Ethereum wallet follows. The process is one-way, ensuring security:
 Private Key (The Secret): A 32-byte (256-bit) random number.
 
