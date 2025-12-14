@@ -1,11 +1,12 @@
-🔐 Project Title: Ethereum Key Derivation Utility
+🔐 Project Title: 
+Ethereum Key Derivation Utility
 A simple, educational Node.js module for deriving an Ethereum Public Key and Address from a given Private Key. This project demonstrates the core cryptographic principles behind Ethereum wallet key generation using the industry-standard ethereumjs-util library.
 
 ✨ Features
-Ethereum Key Derivation: Correctly calculates the Public Key and Address from a Private Key.
-Module System: Uses the stable CommonJS module system (require/module.exports), achieved by removing "type": "module" from package.json.
-Verification: Includes a passing Jest test suite to validate cryptographic outputs against known values.
-Dependencies: Built with ethereumjs-util (for crypto), chai (for assertions), and jest (for testing).
+    -Ethereum Key Derivation: Correctly calculates the           Public Key and Address from a Private Key.
+    -Module System: Uses the stable CommonJS module system (require/module.exports)
+    -Verification: Includes a passing Jest test suite to validate cryptographic outputs against known values.
+    -Dependencies: Built with ethereumjs-util (for crypto), chai (for assertions), and jest (for testing).
 
 🚀 Getting Started
 To run this project, you need Node.js installed on your system.
@@ -23,7 +24,7 @@ cd get-eth-address
 
 [npm install]
 
-2. Running the Tests
+2.Running the Tests
 Run the included unit test to verify the key derivation logic.
 
 Run-[npm test]
