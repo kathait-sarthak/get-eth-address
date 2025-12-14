@@ -16,12 +16,15 @@ To run this project, you need Node.js installed on your system.
 # Clone the repository
 
 git clone https://github.com/kathait-sarthak/get-eth-address.git
+
 cd get-eth-address
 
 # Install all dependencies
 
-[npm install] 2. Running the Tests
+[npm install]
+2. Running the Tests
 Run the included unit test to verify the key derivation logic.
+
 Run-[npm test]
 
 Expected Output (Success): The output confirms that the calculated address matches the expected address.
