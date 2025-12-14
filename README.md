@@ -29,20 +29,26 @@ cd get-eth-address
 npm install
 
 
+
 2. Running the Tests
 Run the included unit test to verify the key derivation logic:
 npm test
 
 Expected Output (Success):
+
 PASS ./test.js
+
 get address
+
 ✓ should get the address from the private key (4 ms)
+
+
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 
 
 
-💡 Core Concepts and Logic Explained
+💡# Core Concepts and Logic Explained
 The getAddress.js file implements the core logic that every Ethereum wallet follows. The process is one-way, ensuring security:
 Private Key (The Secret): A 32-byte (256-bit) random number.
 
